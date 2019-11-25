@@ -41,6 +41,14 @@ nav {
     position: relative;
     display: block;
     padding: 10px;
-    top: 100px;
-    left: 50px;
+    margin: 150px 100px 75px 100px;
+}
+
+.aboutMe {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.me {
+    padding: 10px;
 }
