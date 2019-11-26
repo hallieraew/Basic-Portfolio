@@ -4,25 +4,23 @@
 <head>
     <meta charset="utf-8">
     <title>Portfolio-Gallery </title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-<header>
-    <h1>Hallie Weintraub</h1>
-    
-    <nav> <!--these need to be buttons-->
-        <a href="index.html">About Me</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-</header>
+    <header class="header">
+        <h1 class="h1 clearfix">Hallie Weintraub</h1>
+            <ul class="nav">
+                <li class="li"><a href="contact.html">Contact</a></li>
+                <li class="li"><a href="portfolio.html">Portfolio</a></li>
+                <li class="li"><a href="index.html">About Me</a></li>
+            </ul>
+    </header>
 
-<div>
+<div class="main">
 
-    <h1>Portolio</h1>
- 
-    <hr>
+    <h1 class="aboutMe">Portolio</h1>
 
 <!--ALL ITEMS IN PORTFOLIO NEED TO LINK TO _BLANK (nowhere)-->
 
@@ -32,6 +30,7 @@
         <img src="" alt="">
         <img src="" alt="">
 
+        <hr>
     </div>
 
 <!--Include these two as margin: 0, auto;-->
@@ -42,8 +41,6 @@
 
 </body>
 
-<footer>
-<!--default display is a block; also add other css elements
-<p>insert copyright symbol and copyright - or maybe just an image?</p>>
--->
+<footer class="footer">
+<p>Copyright</p>
 </footer>
