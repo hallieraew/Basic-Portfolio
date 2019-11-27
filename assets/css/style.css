@@ -55,6 +55,9 @@ li {
     margin: 100px 200px 100px 200px;
 }
 
+hr {
+    color: #666666;
+}
 .aboutMe {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -67,4 +70,8 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 0px;
+}
+
+.pfoot {
+    margin-bottom: 5px;
 }
