@@ -1,5 +1,7 @@
 .img1 {
     margin: 20px;
+    z-index: 2;
+    
 }
 
 /* .clearfix::after {
@@ -7,3 +9,48 @@
     content: "";
     clear: both;
 } */
+
+div {
+    width: 960px;
+    position: relative;
+}
+
+.text {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px 80px 20px 80px;
+    text-align: center; 
+    font-size: 12pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 3;
+}
+
+.imgalign {
+    position: absolute;
+    left: 10pt;
+    top: 115pt;
+}
+
+.img2 {
+    position: absolute;
+    left: 195pt;
+    top: 115pt;
+}
+
+.img3 {
+    position: absolute;
+    left: 10pt;
+    top: 200pt;
+}
+
+.img4 {
+    position: absolute;
+    left: 195pt;
+    top: 115pt;
+}
+
+.img5 {
+    position: absolute;
+    left: 195pt;
+    top: 115pt;
+}
