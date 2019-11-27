@@ -18,11 +18,12 @@ div {
 .text {
     background-color: #4aaaa5;
     color: white;
-    padding: 20px 80px 20px 80px;
+    padding: 20px;
     text-align: center; 
     font-size: 12pt;
     font-family: Georgia, 'Times New Roman', Times, serif;
     z-index: 3;
+    
 }
 
 .imgalign {
@@ -40,17 +41,17 @@ div {
 .img3 {
     position: absolute;
     left: 10pt;
-    top: 200pt;
+    top: 300pt;
 }
 
 .img4 {
     position: absolute;
     left: 195pt;
-    top: 115pt;
+    top: 300pt;
 }
 
 .img5 {
     position: absolute;
-    left: 195pt;
-    top: 115pt;
+    left: 10pt;
+    top: 500pt;
 }
