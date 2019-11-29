@@ -1,6 +1,7 @@
 .img1 {
     margin: 20px;
     z-index: 2;
+    position: relative;
     
 }
 
@@ -28,30 +29,35 @@ div {
 
 .imgalign {
     position: absolute;
-    left: 10pt;
+    left: 15pt;
     top: 115pt;
+    width: 120pt;
 }
 
 .img2 {
     position: absolute;
-    left: 195pt;
+    left: 198pt;
     top: 115pt;
+    width: 120pt;
 }
 
 .img3 {
     position: absolute;
-    left: 10pt;
+    left: 15pt;
     top: 300pt;
+    width: 120pt;
 }
 
 .img4 {
     position: absolute;
-    left: 195pt;
+    left: 198pt;
     top: 300pt;
+    width: 120pt;
 }
 
 .img5 {
     position: absolute;
-    left: 10pt;
-    top: 500pt;
+    left: 15pt;
+    top: 480pt;
+    width: 120pt;
 }
