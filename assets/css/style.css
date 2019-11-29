@@ -49,17 +49,15 @@ li {
 
 a:link {
     text-decoration: none;
-    
-
 }
 
 
 .main {
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 40px;
-    display: inline-block;
-    margin: 50px 200px 50px 200px;
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 20px 40px 40px 40px;
 }
 
 hr {
